@@ -1,6 +1,6 @@
-import create from 'zustand';
+import { create } from 'zustand';
 import axios from 'axios';
-import { AuthState, User } from '../types';
+import { AuthState } from '../types';
 
 const API_URL = 'http://localhost:5000/api';
 
